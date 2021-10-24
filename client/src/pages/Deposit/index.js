@@ -8,7 +8,7 @@ const Deposit = () => {
     <div>
       <Layout>
         <h1 className="page-title">Recent File</h1>
-        {/* <TNRTable /> */}
+        <TNRTable />
       </Layout>
     </div>
   );

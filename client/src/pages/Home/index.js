@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Layout>
       <h1 className="page-title">Dashboard</h1>
-      <TNRTable />
+      {/* <TNRTable /> */}
     </Layout>
   );
 };
