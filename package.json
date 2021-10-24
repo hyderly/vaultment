@@ -1,0 +1,38 @@
+{
+  "name": "vaultment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "frontend": "yarn start --prefix client",
+    "dev": "concurrently \"yarn run server \" \"yarn run frontend\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyderly/authentication-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyderly/authentication-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hyderly/authentication-boilerplate#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dicebear": "^4.9.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "nodemailer": "^6.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "morgan": "^1.10.0"
+  }
+}
